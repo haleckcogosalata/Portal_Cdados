@@ -1,0 +1,26 @@
+venv/
+.venv/
+__pycache__/
+*.pyc
+credenciais.json
+
+# Dados e Logs
+*.csv
+**/CSVs/
+Debug/
+Logs/
+
+# Monorepo Node
+node_modules/
+dist/
+.env
+.env.*
+!.env.example
+*.tsbuildinfo
+coverage/
+playwright-report/
+test-results/
+
+# Planilhas com dados de alunos
+*.xlsx
+*.xls
